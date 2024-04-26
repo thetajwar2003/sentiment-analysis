@@ -35,3 +35,21 @@ These models utilize GloVe embeddings to capture more complex patterns in the da
 
 
 ## Results
+
+### Machine Learning Models
+
+| Model                   | Accuracy | Precision (Negative) | Precision (Positive) | Recall (Negative) | Recall (Positive) | F1-Score (Negative) | F1-Score (Positive) |
+|-------------------------|---------:|---------------------:|---------------------:|------------------:|------------------:|--------------------:|--------------------:|
+| SVM Classifier          |     81%  |                 82%  |                 81%  |               80% |               82% |                 81% |                 81% |
+| Multinomial Naive Bayes |     80%  |                 79%  |                 80%  |               81% |               79% |                 80% |                 79% |
+| Decision Tree Classifier|     61%  |                 60%  |                 63%  |               68% |               55% |                 64% |                 59% |
+| Logistic Regression     |     82%  |                 83%  |                 82%  |               81% |               83% |                 82% |                 83% |
+
+
+### Deep Learning Models
+
+| Model                | Best Validation Accuracy | Best Validation Loss |
+|----------------------|-------------------------:|---------------------:|
+| Simple Neural Network|                    73.58%|                0.5463|
+| CNN                  |                    84.99%|                0.4409|
+
